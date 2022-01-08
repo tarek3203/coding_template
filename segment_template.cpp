@@ -124,18 +124,18 @@ int sum(int node , int b , int e , int i , int j){
    for (int i = 1; i <= n; i++){
        cin >> a[i];
    } 
-   build(1int , 1int , n);
+   build(1 , 1 , n);
    
    while(m--){
        cin >> o >> l >> r;
        if(o == 1){
-           upd(1int , 1int , n , l + 1int , r);
+           upd(1 , 1 , n , l + 1 , r);
            /* for(int i = 1; i <= n; i++)cout << a[i] << " ";
            cout << endl;
            cout << t[1] << '\n'; */
        }
        else {
-           cout << sum(1int , 1int , n , l + 1int , r) << '\n';
+           cout << sum(1 , 1 , n , l + 1 , r) << '\n';
        }
    }
    
